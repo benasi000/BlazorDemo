@@ -1,0 +1,74 @@
+﻿@page "/Cars/Create"
+@using BlazorDemo.Models.Helper
+@inject HttpClient _http
+@inject NavigationManager _navManager
+
+<div class="row">
+  <div class="col-lg-8">
+    <h1 class="mb-5">New car details</h1>
+
+    <div class="row mb-3">
+      <label class="col-md-4 col-form-label">CarBrand</label>
+      <div class="col-md-8">
+        <select class="form-select" @bind="carData.CarBrand">
+          <option value="" disabled selected>Select a car type</option>
+          @foreach (var type in Enum.GetValues(typeof(CarBrandsEnum)))
+          {
+            <option value="@type">@Enum.GetName(typeof(CarBrandsEnum), type)</option>
+          }
+        </select>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <label class="col-md-4 col-form-label">Description</label>
+      <div class="col-md-8">
+        <input class="form-control" @bind="carData.CarDescription" />
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <label class="col-md-4 col-form-label">Price</label>
+      <div class="col-md-8">
+        <input class="form-control" @bind="carData.CarPrice" />
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <label class="col-md-4 col-form-label">Damage</label>
+      <div class="col-md-8">
+        <input type="checkbox" @bind="carData.Damage" />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="offset-md-4 col-md-4 d-grid">
+        <button type="submit" disabled="@(!CanSubmit())" @onclick="SaveCar">Submit</button>
+      </div>
+
+      <div class="col-md-4 d-grid">
+        <a class="btn btn-primary" href="/Cars">Cancel</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+@code {
+  public Model.AddCar carData { get; set; } = new();
+
+  protected async Task SaveCar()
+  {
+    var response = await _http.PostAsJsonAsync("https://localhost:7122/api/CarDetailes", carData);
+
+    if (response.IsSuccessStatusCode)
+    {
+      //redirect to the list of Cars
+      _navManager.NavigateTo("/Cars");
+    }
+  }
+
+  private bool CanSubmit()
+  {
+    return carData.CarBrand != null && carData.CarDescription != null;
+  }
+}
