@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\bmusic\\Desktop\\workHome\\learning\\c#\\BlazorDemo\\BlazorDemo\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\bmusic\\Desktop\\workHome\\learning\\c#\\BlazorDemo\\BlazorDemo\\obj\\Debug\\net8.0\\compressed\\yx0ezpm9p1.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\bmusic\\Desktop\\workHome\\learning\\c#\\BlazorDemo\\BlazorDemo\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorDemo.styles.css",
+      "PackagePath": "staticwebassets\\BlazorDemo.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\bmusic\\Desktop\\workHome\\learning\\c#\\BlazorDemo\\BlazorDemo\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\bmusic\\Desktop\\workHome\\learning\\c#\\BlazorDemo\\BlazorDemo\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bmusic\\Desktop\\workHome\\learning\\c#\\BlazorDemo\\BlazorDemo\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bmusic\\Desktop\\workHome\\learning\\c#\\BlazorDemo\\BlazorDemo\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\bmusic\\Desktop\\workHome\\learning\\c#\\BlazorDemo\\BlazorDemo\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\bmusic\\Desktop\\workHome\\learning\\c#\\BlazorDemo\\BlazorDemo\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\bmusic\\Desktop\\workHome\\learning\\c#\\BlazorDemo\\BlazorDemo\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorDemo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BlazorDemo.props",
+      "PackagePath": "build\\BlazorDemo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorDemo.props",
+      "PackagePath": "buildMultiTargeting\\BlazorDemo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BlazorDemo.props",
+      "PackagePath": "buildTransitive\\BlazorDemo.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
