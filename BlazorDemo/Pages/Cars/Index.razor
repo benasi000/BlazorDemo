@@ -1,5 +1,5 @@
 ﻿@page "/Cars"
-@inject HttpClient Http
+@inject HttpClient _http
 
 <h1 class="text-center mb-3">List of Cars</h1>
 <a class="btn btn-primary mb-3" href="/Cars/Create">Add Car</a>
@@ -37,8 +37,8 @@ else
           <th>@car.CreatedDate</th>
           <th>@car.EditedDate</th>
           <td class="white-space:nowrap">
-            <a class="btn btn-primary btn-sm" href="/CarDetails/Edit/@car.Id">Edit</a>
-            <a class="btn btn-danger btn-sm" href="/CarDetails/Delete/@car.Id">Delete</a>
+            <a class="btn btn-primary btn-sm" href="/Cars/Edit/@car.Id">Edit</a>
+            <a class="btn btn-danger btn-sm" href="/Cars/Delete/@car.Id">Delete</a>
           </td>
         </tr>
       }
@@ -54,7 +54,7 @@ else
 
     try
     {
-      carDetails = await Http.GetFromJsonAsync<List<Model.CarDetails>>("https://localhost:7122/api/CarDetailes");
+      carDetails = await _http.GetFromJsonAsync<List<Model.CarDetails>>("https://localhost:7122/api/CarDetailes");
       Console.WriteLine($"Cars fetched: {carDetails?.Count ?? 0}");
     }
     catch (Exception ex)

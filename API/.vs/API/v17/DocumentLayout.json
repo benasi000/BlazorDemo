@@ -1,7 +1,42 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\bmusic\\Desktop\\workHome\\learning\\c#\\BlazorDemo\\API\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0AD6F-A9C9-40EA-8452-BBB3165630FE}|..\\BlazorDemo\\BlazorDemo.csproj|c:\\users\\bmusic\\desktop\\workhome\\learning\\c#\\blazordemo\\blazordemo\\pages\\cars\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0AD6F-A9C9-40EA-8452-BBB3165630FE}|..\\BlazorDemo\\BlazorDemo.csproj|c:\\users\\bmusic\\desktop\\workhome\\learning\\c#\\blazordemo\\blazordemo\\pages\\cars\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4882A5E-1440-4142-927E-163328BBEB2F}|API.csproj|c:\\users\\bmusic\\desktop\\workhome\\learning\\c#\\blazordemo\\api\\controllers\\dto\\editcardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4882A5E-1440-4142-927E-163328BBEB2F}|API.csproj|solutionrelative:controllers\\dto\\editcardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0AD6F-A9C9-40EA-8452-BBB3165630FE}|..\\BlazorDemo\\BlazorDemo.csproj|c:\\users\\bmusic\\desktop\\workhome\\learning\\c#\\blazordemo\\blazordemo\\models\\editcardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0AD6F-A9C9-40EA-8452-BBB3165630FE}|..\\BlazorDemo\\BlazorDemo.csproj|c:\\users\\bmusic\\desktop\\workhome\\learning\\c#\\blazordemo\\blazordemo\\models\\basecardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4882A5E-1440-4142-927E-163328BBEB2F}|API.csproj|c:\\users\\bmusic\\desktop\\workhome\\learning\\c#\\blazordemo\\api\\controllers\\dto\\basecardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4882A5E-1440-4142-927E-163328BBEB2F}|API.csproj|solutionrelative:controllers\\dto\\basecardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0AD6F-A9C9-40EA-8452-BBB3165630FE}|..\\BlazorDemo\\BlazorDemo.csproj|c:\\users\\bmusic\\desktop\\workhome\\learning\\c#\\blazordemo\\blazordemo\\models\\cardetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4882A5E-1440-4142-927E-163328BBEB2F}|API.csproj|c:\\users\\bmusic\\desktop\\workhome\\learning\\c#\\blazordemo\\api\\controllers\\cardetailescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4882A5E-1440-4142-927E-163328BBEB2F}|API.csproj|solutionrelative:controllers\\cardetailescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4882A5E-1440-4142-927E-163328BBEB2F}|API.csproj|c:\\users\\bmusic\\desktop\\workhome\\learning\\c#\\blazordemo\\api\\models\\cardetailes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4882A5E-1440-4142-927E-163328BBEB2F}|API.csproj|solutionrelative:models\\cardetailes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A0AD6F-A9C9-40EA-8452-BBB3165630FE}|..\\BlazorDemo\\BlazorDemo.csproj|c:\\users\\bmusic\\desktop\\workhome\\learning\\c#\\blazordemo\\blazordemo\\pages\\cars\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +44,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 12,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditCarDTO.cs",
+              "DocumentMoniker": "C:\\Users\\bmusic\\Desktop\\workHome\\learning\\c#\\BlazorDemo\\API\\Controllers\\DTO\\EditCarDTO.cs",
+              "RelativeDocumentMoniker": "Controllers\\DTO\\EditCarDTO.cs",
+              "ToolTip": "C:\\Users\\bmusic\\Desktop\\workHome\\learning\\c#\\BlazorDemo\\API\\Controllers\\DTO\\EditCarDTO.cs",
+              "RelativeToolTip": "Controllers\\DTO\\EditCarDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T19:19:51.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CarDetails.cs",
+              "DocumentMoniker": "C:\\Users\\bmusic\\Desktop\\workHome\\learning\\c#\\BlazorDemo\\BlazorDemo\\Models\\CarDetails.cs",
+              "RelativeDocumentMoniker": "..\\BlazorDemo\\Models\\CarDetails.cs",
+              "ToolTip": "C:\\Users\\bmusic\\Desktop\\workHome\\learning\\c#\\BlazorDemo\\BlazorDemo\\Models\\CarDetails.cs",
+              "RelativeToolTip": "..\\BlazorDemo\\Models\\CarDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T18:49:46.797Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -34,6 +95,110 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditCarDTO.cs",
+              "DocumentMoniker": "C:\\Users\\bmusic\\Desktop\\workHome\\learning\\c#\\BlazorDemo\\BlazorDemo\\Models\\EditCarDTO.cs",
+              "RelativeDocumentMoniker": "..\\BlazorDemo\\Models\\EditCarDTO.cs",
+              "ToolTip": "C:\\Users\\bmusic\\Desktop\\workHome\\learning\\c#\\BlazorDemo\\BlazorDemo\\Models\\EditCarDTO.cs*",
+              "RelativeToolTip": "..\\BlazorDemo\\Models\\EditCarDTO.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T19:17:11.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CarDetailes.cs",
+              "DocumentMoniker": "C:\\Users\\bmusic\\Desktop\\workHome\\learning\\c#\\BlazorDemo\\API\\Models\\CarDetailes.cs",
+              "RelativeDocumentMoniker": "Models\\CarDetailes.cs",
+              "ToolTip": "C:\\Users\\bmusic\\Desktop\\workHome\\learning\\c#\\BlazorDemo\\API\\Models\\CarDetailes.cs",
+              "RelativeToolTip": "Models\\CarDetailes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T19:15:07.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseCarDTO.cs",
+              "DocumentMoniker": "C:\\Users\\bmusic\\Desktop\\workHome\\learning\\c#\\BlazorDemo\\API\\Controllers\\DTO\\BaseCarDTO.cs",
+              "RelativeDocumentMoniker": "Controllers\\DTO\\BaseCarDTO.cs",
+              "ToolTip": "C:\\Users\\bmusic\\Desktop\\workHome\\learning\\c#\\BlazorDemo\\API\\Controllers\\DTO\\BaseCarDTO.cs*",
+              "RelativeToolTip": "Controllers\\DTO\\BaseCarDTO.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T19:15:06.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\bmusic\\Desktop\\workHome\\learning\\c#\\BlazorDemo\\BlazorDemo\\Pages\\Cars\\Index.razor",
+              "RelativeDocumentMoniker": "..\\BlazorDemo\\Pages\\Cars\\Index.razor",
+              "ToolTip": "C:\\Users\\bmusic\\Desktop\\workHome\\learning\\c#\\BlazorDemo\\BlazorDemo\\Pages\\Cars\\Index.razor",
+              "RelativeToolTip": "..\\BlazorDemo\\Pages\\Cars\\Index.razor",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T18:56:29.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.razor",
+              "DocumentMoniker": "C:\\Users\\bmusic\\Desktop\\workHome\\learning\\c#\\BlazorDemo\\BlazorDemo\\Pages\\Cars\\Edit.razor",
+              "RelativeDocumentMoniker": "..\\BlazorDemo\\Pages\\Cars\\Edit.razor",
+              "ToolTip": "C:\\Users\\bmusic\\Desktop\\workHome\\learning\\c#\\BlazorDemo\\BlazorDemo\\Pages\\Cars\\Edit.razor",
+              "RelativeToolTip": "..\\BlazorDemo\\Pages\\Cars\\Edit.razor",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAFQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T18:39:15.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseCarDTO.cs",
+              "DocumentMoniker": "C:\\Users\\bmusic\\Desktop\\workHome\\learning\\c#\\BlazorDemo\\BlazorDemo\\Models\\BaseCarDTO.cs",
+              "RelativeDocumentMoniker": "..\\BlazorDemo\\Models\\BaseCarDTO.cs",
+              "ToolTip": "C:\\Users\\bmusic\\Desktop\\workHome\\learning\\c#\\BlazorDemo\\BlazorDemo\\Models\\BaseCarDTO.cs*",
+              "RelativeToolTip": "..\\BlazorDemo\\Models\\BaseCarDTO.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T18:31:35.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.razor",
+              "DocumentMoniker": "C:\\Users\\bmusic\\Desktop\\workHome\\learning\\c#\\BlazorDemo\\BlazorDemo\\Pages\\Cars\\Create.razor",
+              "RelativeDocumentMoniker": "..\\BlazorDemo\\Pages\\Cars\\Create.razor",
+              "ToolTip": "C:\\Users\\bmusic\\Desktop\\workHome\\learning\\c#\\BlazorDemo\\BlazorDemo\\Pages\\Cars\\Create.razor",
+              "RelativeToolTip": "..\\BlazorDemo\\Pages\\Cars\\Create.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T18:29:19.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CarDetailesController.cs",
+              "DocumentMoniker": "C:\\Users\\bmusic\\Desktop\\workHome\\learning\\c#\\BlazorDemo\\API\\Controllers\\CarDetailesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CarDetailesController.cs",
+              "ToolTip": "C:\\Users\\bmusic\\Desktop\\workHome\\learning\\c#\\BlazorDemo\\API\\Controllers\\CarDetailesController.cs*",
+              "RelativeToolTip": "Controllers\\CarDetailesController.cs*",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T20:07:06.459Z",
+              "EditorCaption": ""
             }
           ]
         }

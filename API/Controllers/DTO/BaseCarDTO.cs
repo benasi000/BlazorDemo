@@ -1,6 +1,6 @@
 ﻿namespace API.Controllers.DTO
 {
-    public class AddCar
+    public class BaseCarDTO
     {
         public string CarBrand { get; set; }
         public string CarDescription { get; set; }

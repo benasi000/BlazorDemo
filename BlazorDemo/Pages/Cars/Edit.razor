@@ -1,12 +1,16 @@
-﻿@page "/Cars/Create"
+﻿@page "/Cars/Edit/{Id:int}";
 @using BlazorDemo.Models.Helper
-@using System.Text.Json.Nodes
 @inject HttpClient _http
 @inject NavigationManager _navManager
 
 <div class="row">
   <div class="col-lg-8">
-    <h1 class="mb-5">New car details</h1>
+    <h1 class="mb-5">Edit Car</h1>
+
+    @if(carDetails == null)
+    {
+    <p><em>Loading...</em></p>
+    }
 
     <div class="row mb-3">
       <label class="col-md-4 col-form-label">CarBrand</label>
@@ -55,12 +59,31 @@
 </div>
 
 @code {
-  public Model.BaseCarDTO carData { get; set; } = new();
-  public JsonNode Errors { get; set; } = new JsonObject();
+  [Parameter]
+  public int Id { get; set; }
+  public Model.CarDetails? carDetails { get; set; }
+  public Model.EditCarDTO carData { get; set; } = new();
+
+  protected override async Task OnParametersSetAsync()
+  {
+    try
+    {
+      carDetails = await _http.GetFromJsonAsync<Model.CarDetails>("https://localhost:7122/api/CarDetailes/" + Id);
+      carData.CarBrand = carDetails?.CarBrand ?? "";
+      carData.CarDescription = carDetails?.CarDescription ?? "";
+      carData.Damage = carDetails.Damage;
+      carData.CarPrice = carDetails.CarPrice;
+    }
+    catch (Exception ex)
+    {
+
+    }
+  }
 
   protected async Task SaveCar()
   {
-    var response = await _http.PostAsJsonAsync("https://localhost:7122/api/CarDetailes", carData);
+    carData.Id = Id;
+    var response = await _http.PutAsJsonAsync("https://localhost:7122/api/CarDetailes/" + Id, carData);
 
     if (response.IsSuccessStatusCode)
     {
@@ -68,9 +91,11 @@
       _navManager.NavigateTo("/Cars");
     }
 
+
+
   }
 
-  //Following code will disable submit button unit evry thing is filled 
+  //Following code will disable submit button unit evry thing is filled
   private bool CanSubmit()
   {
     return carData.CarBrand != null && carData.CarDescription != null;

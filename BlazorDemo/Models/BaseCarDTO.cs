@@ -1,6 +1,8 @@
-﻿namespace BlazorDemo.Model
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace BlazorDemo.Model
 {
-  public class AddCar
+  public class BaseCarDTO
   {
     public string CarBrand { get; set; }
     public string CarDescription { get; set; }
