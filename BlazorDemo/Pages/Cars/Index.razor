@@ -10,40 +10,44 @@
 }
 else
 {
-  <table class="table">
-    <thead>
-      <tr>
-        <th>ID</th>
-        <th>Brand</th>
-        <th>Description</th>
-        <th>Price</th>
-        <th>Damage</th>
-        <th>Created date</th>
-        <th>Edited date</th>
-        <th>Action</th>
-      </tr>
-    </thead>
-    <tbody>
-      @foreach (var car in carDetails)
-      {
-        <tr>
-          <th>@car.Id</th>
-          <th>@car.CarBrand</th>
-          <th>@car.CarDescription</th>
-          <th>@car.CarPrice €</th>
-          <td>
-            <input type="checkbox" checked="@car.Damage" disabled />
-          </td>
-          <th>@car.CreatedDate</th>
-          <th>@car.EditedDate</th>
-          <td class="white-space:nowrap">
-            <a class="btn btn-primary btn-sm" href="/Cars/Edit/@car.Id">Edit</a>
-            <a class="btn btn-danger btn-sm" href="/Cars/Delete/@car.Id">Delete</a>
-          </td>
-        </tr>
-      }
-    </tbody>
-  </table>
+  <div class="container mt-2">
+    <div class="card shadow-lg">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Brand</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Damage</th>
+            <th>Created date</th>
+            <th>Edited date</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          @foreach (var car in carDetails)
+          {
+            <tr>
+              <th>@car.Id</th>
+              <th>@car.CarBrand</th>
+              <th>@car.CarDescription</th>
+              <th>@car.CarPrice €</th>
+              <td>
+                <input type="checkbox" checked="@car.Damage" disabled />
+              </td>
+              <th>@car.CreatedDate</th>
+              <th>@car.EditedDate</th>
+              <td class="white-space:nowrap">
+                <a class="btn btn-primary btn-sm" href="/Cars/Edit/@car.Id">Edit</a>
+                <a class="btn btn-danger btn-sm" href="/Cars/Delete/@car.Id">Delete</a>
+              </td>
+            </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+  </div>
 }
 
 @code {
